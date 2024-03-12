@@ -1,6 +1,5 @@
 import { Injectable } from '@nestjs/common';
 
-
 @Injectable()
 export class GirlService {
   getGirls() {
@@ -10,7 +9,7 @@ export class GirlService {
       msg: '请求女孩列表成功',
     };
   }
-  addGirl(body: girlInfo) {
+  addGirl(body) {
     return {
       code: 200,
       data: body,
