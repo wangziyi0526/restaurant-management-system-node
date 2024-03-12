@@ -1,0 +1,10 @@
+# POST http://localhost:3000/HongLangMan/girl/add HTTP/1.1
+# Get http://localhost:3000/HongLangMan/girl/getGirlById?id=1
+POST http://localhost:3000/HongLangMan/girl/add 
+Content-Type: application/json
+
+{
+    "id":4,
+    "name":"大梨",
+    "age":30
+}
